@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sticky Header Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="/ShoppingWebsite/online-shopping.png" alt="Logo">
+        </div>
+        <nav class="nav-links">
+            <a class="read-more" href="#home">HOME</a>
+            <a class="read-more" href="#products">PRODUCTS</a>
+            <a class="read-more" href="#quality-policy">QUALITY POLICY</a>
+            <a class="read-more" href="#rnd">R&D</a>
+            <a class="read-more" href="#download">DOWNLOAD</a>
+            <a class="read-more" href="#about">ABOUT</a>
+            <a class="read-more" href="#contact">CONTACT</a>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="/ShoppingWebsite/Image1.jpg" alt="Image 1"></div>
+                <div class="slide"><img src="/ShoppingWebsite/image2.avif" alt="Image 2"></div>
+                <div class="slide"><img src="/ShoppingWebsite/image3.avif" alt="Image 3"></div>
+                <div class="slide"><img src="/ShoppingWebsite/image4.avif" alt="Image 4"></div>
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <img style="width: 210px;height: 170px;" src="/ShoppingWebsite/brand11.png" alt="Image 4">
+                <ul
+                    style=" line-height: 1.8; list-style-type: disc;list-style-position: inside; padding-left: 0; text-align: center;">
+                    <li>Product Quality</li>
+                    <li>Timely Delivery</li>
+                    <li>Service Backup</li>
+                    <br>
+                    <p class="read-more">
+                        <img src="/ShoppingWebsite/double-chevron.png" style=" line-height: 3; height: 10px; width: 20px;"> read more
+                    </p>
+                    
+                </ul>
+            </div>
+            <div class="grid-item">
+                <img style="width: 210px;height: 170px;" src="/ShoppingWebsite/brand2.png" alt="Image 4">
+                <p>Content for the second grid item goes here. This is another place to add more information, images, or
+                    other content.</p>
+                <br>
+                <p class="read-more">
+                    <img src="/ShoppingWebsite/double-chevron.png" style=" line-height: 3; height: 10px; width: 20px;"> read more
+                </p>
+            </div>
+            <div class="grid-item">
+                <img style="width: 210px;height: 170px;" src="/ShoppingWebsite/brand32.png" alt="Image 4">
+                <p>Content for the third grid item goes here. Feel free to include any relevant information or media.
+                </p>
+                <br>
+                <p class="read-more">
+                    <img src="/ShoppingWebsite/double-chevron.png" style=" line-height: 3; height: 10px; width: 20px;"> read more
+                </p>
+            </div>
+        </div>
+        <div class="fullscreen-image">
+            <img src="/ShoppingWebsite/premium.avif" alt="Full Screen Image">
+        </div>
+
+        <div class="twoColumnContainer">
+            <div class="column-tcc1">
+                <h2>Events</h2>
+            </div>
+            <div class="column-tcc2">
+                <h2>Enquiry</h2>
+            </div>
+        </div>
+
+        <div class="lowercontainer">
+            <div class="column-11">
+                <div class="sub-column-11" style="justify-content: center; align-items: center;">
+                    <div class="date-box">
+                        <span class="day">24</span>
+                        <span class="month">Jul</span>
+                    </div>
+                </div>
+                <div class="sub-column-22">
+                    <p>                    <span style="line-height: 3; font-size: 25px;">ISF 2024 <br></span>
+                        <span style="line-height: 3; font-size: 15px;">(INDIAN SURFACE FINISHING) <br></span>
+                        <img src="/ShoppingWebsite/location-pin.png" style=" line-height: 3; height: 20px; width: 20px;">Grater Noida, India.<br><br>
+                        Booth No. : C1A<br>
+                        Hall / Zone : 15<br>
+                        Date: Feb 14 – Feb 15, 2024<br>
+                        Venue : India Expo Centre & Mart,<br>
+                        Grater Noida, India.</p>
+                </div>
+            </div>
+            <div class="column-22">
+                <p><img src="/ShoppingWebsite/mail.png" style=" line-height: 3; height: 60px; width: 70px;"></p>
+                <p>Send us your enquiry</p>
+                <p>
+                    
+Had a query regarding any product ? Want to associate with us ? Or just want to say hello ?
+                </p><br>
+                <p class="read-more"><img src="/ShoppingWebsite/double-chevron.png" style=" line-height: 3; height: 10px; width: 20px;"> read more</p>
+            </div>
+        </div>
+        <div class="lowercontainer">
+            <div class="column-11">
+                <div class="sub-column-11" style="justify-content: center; align-items: center;">
+                    <div class="date-box">
+                        <span class="day">27</span>
+                        <span class="month">Jun</span>
+                    </div>
+                </div>
+                <div class="sub-column-22">
+                    <p>
+                        <span style="line-height: 3; font-size: 25px;">Fastener Fair India 2024 <br></span>
+                        <img src="/ShoppingWebsite/location-pin.png" style=" line-height: 3; height: 20px; width: 20px;"> New Delhi, India.<br><br>
+                       Booth No. : C19 <br>
+                       Hall : 6 <br>
+                       Date: Jul 26 – Jul 28, 2024 <br>
+                       Venue : Pragati Maidan, New Delhi, India. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="lowercontainer">
+            <div class="column-11">
+                <div class="sub-column-11" style="justify-content: center; align-items: center;">
+                    <div class="date-box">
+                        <span class="day">10</span>
+                        <span class="month">May</span>
+                    </div>
+                </div>
+                <div class="sub-column-22">
+                    <p>
+                        <span style="line-height: 3; font-size: 25px;">CABLE & WIRE FAIR 2025 <br></span>
+                        <img src="/ShoppingWebsite/location-pin.png" style=" line-height: 3; height: 20px; width: 20px;"> New Delhi<br><br>
+                       Booth No. : 5E4-4 <br>
+                       Hall / Zone : 5 <br>
+                       Date: Nov 4 – Nov 6, 2025 <br>
+                       Venue : Pragati Maidan, New Delhi.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="two-columnss">
+            <div class="column-tc" style="margin-left: 200px;">
+                <p><h3>Get in Touch</h3></p>
+                <p> <img src="/ShoppingWebsite/home.png" style=" line-height: 3; height: 20px; width: 20px;"> Surfin Center, 121, Marol Co-Op. Ind. Estate, M. V. Road, Andheri (E), Mumbai - 400 059</p>
+                <p><img src="/ShoppingWebsite/telephone.png" style=" line-height: 3; height: 20px; width: 20px;"> +91-22-40320101/02</p>
+                <p><img src="/ShoppingWebsite/mail.png" style=" line-height: 3; height: 20px; width: 20px;"> sales@artekchemicals.com</p>
+            </div>
+            <div class="column-tc" style="margin-right: 200px;">
+                <p><h3>About Us</h3></p>
+                <p>Passionate about leveraging technology to solve real-world problems and eager to apply theoretical knowledge in a practical 
+                    setting, A fast learner with excellent communication skills and a strong work ethic, seeking opportunities to gain hands-on 
+                    experience and contribute to innovative projects in the field of information technology with the help of my quick learning 
+                    skill.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="short-text">© 2023 Tejas LTD.</span>
+            <button class="up-arrow" onclick="scrollToTop()">⬆</button>
+        </div>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
